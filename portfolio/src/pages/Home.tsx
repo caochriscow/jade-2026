@@ -10,7 +10,7 @@ import devpost from "../assets/devpostlogo.jpg";
 const Home = () => {
   return (
     <div>
-      <div className="bg-blue-950 min-w-screen min-h-screen">
+      <div className="bg-blue-950 min-h-screen">
         <div className="absolute bottom-0 left-0 mb-5 ml-5">
           <NameTypingAnimation text="Christopher Cao" />
         </div>
