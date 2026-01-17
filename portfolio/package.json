@@ -10,6 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion-icons/bootstrap": "^3.27.0",
+    "@emotion-icons/boxicons-logos": "^3.19.0",
+    "@emotion-icons/boxicons-regular": "^3.19.0",
+    "@emotion-icons/evaicons-outline": "^3.14.0",
+    "@emotion-icons/ionicons-outline": "^3.14.0",
     "@tailwindcss/vite": "^4.1.18",
     "motion": "^12.26.1",
     "react": "^19.2.0",

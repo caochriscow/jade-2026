@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet, RouterProvider, useLocation } from "react-
 import './App.css'
 import { useLayoutEffect, type PropsWithChildren } from "react";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 const Scroller = ({ children }: PropsWithChildren) => {
   const location = useLocation();
@@ -14,6 +15,7 @@ const Scroller = ({ children }: PropsWithChildren) => {
 const Layout = () => (
   <Scroller>
     <Outlet />
+    <Footer />
   </Scroller>
 );
 
